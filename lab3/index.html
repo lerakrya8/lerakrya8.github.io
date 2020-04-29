@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather </title>
+    <link rel="stylesheet" href="sstyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="Search">
+        <form onsubmit="main(); return false;">
+            <input id="city" type="text" placeholder="Введите город...">
+            <button type="submit"></button>
+        </form>
+    </div>
+    <div class="main">
+        <div class="information">
+            <div class="town"></div>
+            <div class="date">
+                <p id="date"></p>
+            </div>
+        </div>
+        <br>
+        <div class="MainTemp">
+            <span class="Temperature"></span>
+            <span class="description"></span>
+            <span class="icon"></span>
+            <span class="feelings"></span>
+        </div>      
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
