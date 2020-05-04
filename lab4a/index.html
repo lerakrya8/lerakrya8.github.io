@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-firestore.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-storage.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script1.js"></script>
+</head>
+
+<body>
+    <div class="Main">
+        <div class="request">
+            <h>Отправьте заявку на обработку</h>
+        </div>
+        <br>
+        <form id="form" onsubmit="GetDate(); return false;">
+            <div class="Info">
+                <div class="Name">
+                    <label>Имя:<span class="Text">*</span></label>
+                    <br>
+                    <input type="text" id="name" name="name" required pattern="[А-ЯA-Zа-яa-z' -]+"> 
+                </div>
+                <div class="Email">
+                    <label>Почта:<span class="Text">*</span></label>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="Telephone">
+                    <label>Телефон:<span class="Text">*</span></label>
+                    <br>
+                    <input type="text" id="telephone" name="telephone" placeholder="Формат: 8ХХХХХХХХХХ(10 цифр)" required pattern="[8]{1}[0-9]{3}[0-9]{3}[0-9]{4}">
+                </div>
+                <div class="Description">
+                    <label>Описание:</label>
+                    <br>
+                    <textarea name="message" rows="5" id="description" name="description" style="margin: 0px; width: 100%; height: 70px;"></textarea>
+                </div>
+                <button type="submit" onclick="GetDate()">Отправить форму</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

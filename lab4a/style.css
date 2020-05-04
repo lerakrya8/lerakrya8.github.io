@@ -1,0 +1,121 @@
+body{
+    background: #c7b39b url(unnamed\ \(1\).jpg); 
+    margin: 0;
+    line-height: 1.6;
+    color: white; 
+    background-size: 200%; 
+}
+.Main{
+    top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.request{
+    font-size: 15px;
+    margin-top: 100px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: center;
+}
+@media screen and (min-device-width: 1000px) {
+    .request{
+        margin-top: 100px;
+        font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+        letter-spacing: 2px;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+}
+* {box-sizing: border-box;}
+.Info{
+    padding: 15px; 
+    background: #f1ecef; 
+    margin: 0 auto; 
+    width: 80%; 
+    height: 400px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 1;
+    filter: alpha(Opacity=70);
+    position: fixed; 
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.Name{
+    width: 80%; 
+    height: 40px;
+    color: black;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+form{
+    width: 80%;
+    align-items: center;
+
+}
+input{
+    width: 100%;
+}
+.Email{
+    margin-top: 20px;
+    width: 80%; 
+    height: 40px;
+    color: black;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Telephone{
+    margin-top: 20px;
+    width: 80%; 
+    height: 40px;
+    color: black;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Description{
+    margin-top: 20px;
+    width: 80%; 
+    height: 40px;
+    color: black;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Text{
+    color: red;
+}
+button {
+    margin-top: 85px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    height: 42px;
+    border: none;
+    background: #7BA7AB;
+    border-radius: 5px 5px 5px 5px;
+  }
+input:invalid {
+    border: 2px red;
+ }
