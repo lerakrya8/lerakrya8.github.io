@@ -1,0 +1,81 @@
+.container {
+    margin: 80px auto;
+    width: 600px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+  }
+  
+  .container > .dropdown {
+    margin: 0 20px;
+    vertical-align: top;
+  }
+  
+  .dropdown {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    height: 45px;
+    width: 250px;
+    background: #f7e6ef;
+    border: 1px solid;
+    border-color: #f7e6ef;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    font-family: sans-serif;
+  }
+  
+  .dropdown:before, .dropdown:after {
+    content: '';
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 4px dashed;
+    border-color: #888888 transparent;
+    pointer-events: none;
+    font-family: sans-serif;
+  }
+  
+  .dropdown:before {
+    border-bottom-style: solid;
+    border-top: none;
+  }
+  
+  .dropdown:after {
+    margin-top: 7px;
+    border-top-style: solid;
+    border-bottom: none;
+  }
+  
+  .dropdown-select {
+    position: relative;
+    width: 130%;
+    margin: 0;
+    padding: 6px 8px 6px 10px;
+    height: 28px;
+    line-height: 14px;
+    font-size: 12px;
+    color: rgb(59, 72, 80);
+    text-shadow: 0 1px white;
+    background: #f7e6ef; /* Fallback for IE 8 */
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    font-family: sans-serif;
+  }
+  .dropdown-dark {
+    background: rgb(59, 72, 80);
+    border-color: rgb(59, 72, 80);
+  }
+  
+  .dropdown-dark .dropdown-select {
+    color: #f7e6ef;
+    text-shadow: 0 1px black;
+    background: rgb(59, 72, 80);  /* Fallback for IE 8 */
+    font-family: sans-serif;
+  }
+
+  
+  

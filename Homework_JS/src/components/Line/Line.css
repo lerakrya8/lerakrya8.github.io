@@ -1,0 +1,16 @@
+.Line{
+    margin-left: 20px;
+    height: 30px;
+    font-family: Georgia;
+    font-size: 20px;
+    justify-content: space-between;
+}
+@media (max-device-width: 1000px) {
+    .Line{
+        margin-left: 20px;
+        height: 30px;
+        font-family: Georgia;
+        font-size: 15px;
+        justify-content: space-between;
+    }
+}

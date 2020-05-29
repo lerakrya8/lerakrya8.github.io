@@ -1,0 +1,72 @@
+.Header{
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+}
+.Buttons{
+    display: flex;
+    height: 43px;
+    justify-content: flex-end;
+    margin-right: 50px;
+    font-family: Georgia;
+}
+button{
+    font-family: Georgia;
+}
+.MainList{
+    color:rgb(59, 72, 80);
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-right: 50px;
+    text-decoration: none;
+    border: 1px solid rgb(59, 72, 80);
+    padding: 10px 15px;
+    border-radius: 7px;
+    background-color: #f7e6ef;
+}
+.SingIn{
+    color:rgb(59, 72, 80);
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-right: 30px;
+    text-decoration: none;
+    border: 1px solid rgb(59, 72, 80);
+    padding: 10px 15px;
+    border-radius: 7px;
+    background-color: #f7e6ef;
+}
+button:hover {
+    background:rgb(59, 72, 80); /* Цвет фона под ссылкой */ 
+    color: #f7e6ef; /* Цвет ссылки */ 
+}
+.Topic{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 40px;
+    height: 100px;
+    justify-content: space-between;
+    padding: 15px;
+    background: #f7e6ef;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 10px 10px 10px 10px;
+}
+.Picture{
+    margin: 10px;
+}
+.Name{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: Georgia;
+}
+@media (max-device-width: 1000px) {
+    .Name{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+        font-family: Georgia;
+    }
+}
