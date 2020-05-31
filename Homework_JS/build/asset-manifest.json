@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Homework_JS/static/css/main.72341cae.chunk.css",
+    "main.js": "/Homework_JS/static/js/main.247ad9c0.chunk.js",
+    "main.js.map": "/Homework_JS/static/js/main.247ad9c0.chunk.js.map",
+    "runtime-main.js": "/Homework_JS/static/js/runtime-main.5e9a15ca.js",
+    "runtime-main.js.map": "/Homework_JS/static/js/runtime-main.5e9a15ca.js.map",
+    "static/js/2.1d010302.chunk.js": "/Homework_JS/static/js/2.1d010302.chunk.js",
+    "static/js/2.1d010302.chunk.js.map": "/Homework_JS/static/js/2.1d010302.chunk.js.map",
+    "index.html": "/Homework_JS/index.html",
+    "precache-manifest.7821560ee55dec29a17e80a39deac883.js": "/Homework_JS/precache-manifest.7821560ee55dec29a17e80a39deac883.js",
+    "service-worker.js": "/Homework_JS/service-worker.js",
+    "static/css/main.72341cae.chunk.css.map": "/Homework_JS/static/css/main.72341cae.chunk.css.map",
+    "static/js/2.1d010302.chunk.js.LICENSE.txt": "/Homework_JS/static/js/2.1d010302.chunk.js.LICENSE.txt",
+    "static/media/Autorisation.css": "/Homework_JS/static/media/Beautiful-nature-landscape-mountains-top-view-clouds-fog-morning_2560x1600.cccdc452.jpg",
+    "static/media/unnamed.png": "/Homework_JS/static/media/unnamed.ba80d2b3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e9a15ca.js",
+    "static/js/2.1d010302.chunk.js",
+    "static/css/main.72341cae.chunk.css",
+    "static/js/main.247ad9c0.chunk.js"
+  ]
+}
