@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './MainPage.css'
-import Header from '../../components/Header/Heager'
+import Header from '../../components/Header/Header'
 import Main from '../../components/Main/Main'
 
 class MainPage extends Component {

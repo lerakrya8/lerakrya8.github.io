@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import './Autorisation.css'
 import MainAutorisation from '../../components/MainAutorisation/MainAutorisation'
-import Header from '../../components/Header/Heager'
+import Header from '../../components/Header/Header'
 
 class Autorisation extends Component {
     render() {

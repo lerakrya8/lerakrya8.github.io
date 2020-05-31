@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import Converter from './pages/Converter/Converter'
 import Registration from './pages/Registration/Registration'
 import Firebase, { FirebaseText } from './components/firebase/indexfile';
-import Autorisation from './pages/Autorization/Autorisation'
+import Autorisation from './pages/Autorisation/Autorisation'
 import {
   BrowserRouter as Router,
   Switch,

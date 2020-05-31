@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './MainAutorusation.css'
+import './MainAutorisation.css'
 import {
     Link, withRouter
 } from 'react-router-dom'
